@@ -47,6 +47,7 @@ local function get_mythic_labels()
         [17] = L["M+18/Valor 9"],
         [18] = L["M+19/Valor 10"],
         [19] = L["M+20/Valor 10"],
+        [20] = L["M+21/Valor 10"],
     }
 
     return mythicLabels
@@ -55,14 +56,14 @@ MPL_tables.get_mythic_labels = get_mythic_labels
 
 local function get_dungeons()
     local dungeonTable = {
-        [L["Ruby Life Pools"]] = 1,
-        [L["The Nokhud Offensive"]] = 2,
-        [L["The Azure Vault"]] = 3,
-        [L["Algeth'ar Academy"]] = 4,
-        [L["Halls of Valor"]] = 5,
-        [L["Court of Stars"]] = 6,
-        [L["Temple of the Jade Serpent"]] = 7,
-        [L["Shadowmoon Burial Grounds"]] = 8,
+        [L["Brackenhide Hollow"]] = 1,
+        [L["Freehold"]] = 2,
+        [L["Halls of Infusion"]] = 3,
+        [L["Neltharion's Lair"]] = 4,
+        [L["Neltharus"]] = 5,
+        [L["Uldaman: Legacy of Tyr"]] = 6,
+        [L["The Underrot"]] = 7,
+        [L["The Vortex Pinnacle"]] = 8,
     }
 
     return dungeonTable
@@ -71,14 +72,14 @@ MPL_tables.get_dungeons = get_dungeons
 
 local function dungeon_ids()
     local dungeonIDs = {
-        [L["Ruby Life Pools"]] = 1202,
-        [L["The Nokhud Offensive"]] = 1198,
-        [L["The Azure Vault"]] = 1203,
-        [L["Algeth'ar Academy"]] = 1201,
-        [L["Halls of Valor"]] = 721,
-        [L["Court of Stars"]] = 800,
-        [L["Temple of the Jade Serpent"]] = 313,
-        [L["Shadowmoon Burial Grounds"]] = 537,
+        [L["Brackenhide Hollow"]] = 1196,
+        [L["Freehold"]] = 1001,
+        [L["Halls of Infusion"]] = 1204,
+        [L["Neltharion's Lair"]] = 767,
+        [L["Neltharus"]] = 1199,
+        [L["Uldaman: Legacy of Tyr"]] = 1197,
+        [L["The Underrot"]] = 1022,
+        [L["The Vortex Pinnacle"]] = 68,
     }
 
     return dungeonIDs
